@@ -186,12 +186,9 @@ public class MainActivity extends AppCompatActivity {
                     third_foto.setBackgroundResource(0);
                     third_foto.setImageBitmap(third_picture);
                     third_reviews.setText("Number of Reviews:" + main_cursor.getInt(7));
-
-
                 }
             }
         }
-
     }
 
     public void lunch_results(View view) {
@@ -262,12 +259,9 @@ public class MainActivity extends AppCompatActivity {
                     third_foto.setBackgroundResource(0);
                     third_foto.setImageBitmap(third_picture);
                     third_reviews.setText("Number of Reviews:" + main_cursor.getInt(7));
-
-
                 }
             }
         }
-
     }
 
     public void dinner_results(View view) {
@@ -338,12 +332,9 @@ public class MainActivity extends AppCompatActivity {
                     third_foto.setBackgroundResource(0);
                     third_foto.setImageBitmap(third_picture);
                     third_reviews.setText("Number of Reviews:" + main_cursor.getInt(7));
-
-
                 }
             }
         }
-
     }
 
     public void all_food_results(View view) {
@@ -414,12 +405,9 @@ public class MainActivity extends AppCompatActivity {
                     third_foto.setBackgroundResource(0);
                     third_foto.setImageBitmap(third_picture);
                     third_reviews.setText("Number of Reviews:" + main_cursor.getInt(7));
-
-
                 }
             }
         }
-
     }
 
     public void grocery_results(View view) {
@@ -490,12 +478,9 @@ public class MainActivity extends AppCompatActivity {
                     third_foto.setBackgroundResource(0);
                     third_foto.setImageBitmap(third_picture);
                     third_review.setText("Number of Reviews:" + main_cursor.getInt(7));
-
-
                 }
             }
         }
-
     }
 
     public void gas_results(View view) {
@@ -566,12 +551,9 @@ public class MainActivity extends AppCompatActivity {
                     third_foto.setBackgroundResource(0);
                     third_foto.setImageBitmap(third_picture);
                     third_review.setText("Number of Reviews:" + main_cursor.getInt(7));
-
-
                 }
             }
         }
-
     }
 
     public void haircut_results(View view) {
@@ -642,12 +624,9 @@ public class MainActivity extends AppCompatActivity {
                     third_foto.setBackgroundResource(0);
                     third_foto.setImageBitmap(third_picture);
                     third_review.setText("Number of Reviews:" + main_cursor.getInt(7));
-
-
                 }
             }
         }
-
     }
 
     public void all_lifestyle_results(View view) {
@@ -718,12 +697,9 @@ public class MainActivity extends AppCompatActivity {
                     third_foto.setBackgroundResource(0);
                     third_foto.setImageBitmap(third_picture);
                     third_review.setText("Number of Reviews:" + main_cursor.getInt(7));
-
-
                 }
             }
         }
-
     }
 
     public void movies_results(View view) {
@@ -794,12 +770,9 @@ public class MainActivity extends AppCompatActivity {
                     third_foto.setBackgroundResource(0);
                     third_foto.setImageBitmap(third_picture);
                     third_review.setText("Number of Reviews:" + main_cursor.getInt(7));
-
-
                 }
             }
         }
-
     }
 
     public void shopping_results(View view) {
@@ -870,12 +843,9 @@ public class MainActivity extends AppCompatActivity {
                     third_foto.setBackgroundResource(0);
                     third_foto.setImageBitmap(third_picture);
                     third_review.setText("Number of Reviews:" + main_cursor.getInt(7));
-
-
                 }
             }
         }
-
     }
 
     public void recreation_results(View view) {
@@ -946,12 +916,9 @@ public class MainActivity extends AppCompatActivity {
                     third_foto.setBackgroundResource(0);
                     third_foto.setImageBitmap(third_picture);
                     third_review.setText("Number of Reviews:" + main_cursor.getInt(7));
-
-
                 }
             }
         }
-
     }
 
     public void all_entertainment_results(View view) {
@@ -1021,15 +988,10 @@ public class MainActivity extends AppCompatActivity {
                     third_foto.setBackgroundResource(0);
                     third_foto.setImageBitmap(third_picture);
                     third_review.setText("Number of Reviews:" + main_cursor.getInt(7));
-
-
                 }
             }
         }
-
     }
-
-
 
     public void l_back(View view) {
         setContentView(R.layout.thrillz);
@@ -1056,12 +1018,10 @@ public class MainActivity extends AppCompatActivity {
         advanced_food = meal.getText().toString();
         Log.v("FOOD:", advanced_food);
         setContentView(R.layout.adv_food_search);
-
     }
 
     public void advanced_price_search(View view) {
         setContentView(R.layout.food_price_search);
-
     }
 
     public void cheap_food(View view) {
@@ -1131,8 +1091,6 @@ public class MainActivity extends AppCompatActivity {
                         third_foto.setBackgroundResource(0);
                         third_foto.setImageBitmap(third_picture);
                         third_reviews.setText("Number of Reviews:" + main_cursor.getInt(7));
-
-
                     }
                 }
             }
@@ -1202,12 +1160,9 @@ public class MainActivity extends AppCompatActivity {
                         third_foto.setBackgroundResource(0);
                         third_foto.setImageBitmap(third_picture);
                         third_reviews.setText("Number of Reviews:" + main_cursor.getInt(7));
-
-
                     }
                 }
             }
-
         }
     }
 
@@ -1278,8 +1233,6 @@ public class MainActivity extends AppCompatActivity {
                         third_foto.setBackgroundResource(0);
                         third_foto.setImageBitmap(third_picture);
                         third_reviews.setText("Number of Reviews:" + main_cursor.getInt(7));
-
-
                     }
                 }
             }
@@ -1349,12 +1302,9 @@ public class MainActivity extends AppCompatActivity {
                         third_foto.setBackgroundResource(0);
                         third_foto.setImageBitmap(third_picture);
                         third_reviews.setText("Number of Reviews:" + main_cursor.getInt(7));
-
-
                     }
                 }
             }
-
         }
     }
 
@@ -1425,8 +1375,6 @@ public class MainActivity extends AppCompatActivity {
                         third_foto.setBackgroundResource(0);
                         third_foto.setImageBitmap(third_picture);
                         third_reviews.setText("Number of Reviews:" + main_cursor.getInt(7));
-
-
                     }
                 }
             }
@@ -1496,16 +1444,11 @@ public class MainActivity extends AppCompatActivity {
                         third_foto.setBackgroundResource(0);
                         third_foto.setImageBitmap(third_picture);
                         third_reviews.setText("Number of Reviews:" + main_cursor.getInt(7));
-
-
                     }
                 }
             }
-
         }
     }
-
-
 
     public void advanced_price_back(View view) {
         setContentView(R.layout.adv_food_search);
@@ -1513,7 +1456,6 @@ public class MainActivity extends AppCompatActivity {
 
     public void advanced_cuisine_search(View view) {
         setContentView(R.layout.advanced_cuisine_search);
-
     }
 
     public void find_cuisine(View view) {
@@ -1584,8 +1526,6 @@ public class MainActivity extends AppCompatActivity {
                         third_foto.setBackgroundResource(0);
                         third_foto.setImageBitmap(third_picture);
                         third_reviews.setText("Number of Reviews:" + main_cursor.getInt(7));
-
-
                     }
                 }
             }
@@ -1655,12 +1595,9 @@ public class MainActivity extends AppCompatActivity {
                         third_foto.setBackgroundResource(0);
                         third_foto.setImageBitmap(third_picture);
                         third_reviews.setText("Number of Reviews:" + main_cursor.getInt(7));
-
-
                     }
                 }
             }
-
         }
     }
 
@@ -1750,12 +1687,9 @@ public class MainActivity extends AppCompatActivity {
                         third_foto.setBackgroundResource(0);
                         third_foto.setImageBitmap(third_picture);
                         third_review.setText("Number of Reviews:" + main_cursor.getInt(7));
-
-
                     }
                 }
             }
-
 
         } else if (all_life == true) {
             TextView name = findViewById(R.id.life_name_one);
@@ -1822,14 +1756,11 @@ public class MainActivity extends AppCompatActivity {
                         third_foto.setBackgroundResource(0);
                         third_foto.setImageBitmap(third_picture);
                         third_review.setText("Number of Reviews:" + main_cursor.getInt(7));
-
-
                     }
                 }
             }
         }
-
-        }
+    }
 
     public void service_search(View view) {
         setContentView(R.layout.top_life);
@@ -1898,12 +1829,9 @@ public class MainActivity extends AppCompatActivity {
                         third_foto.setBackgroundResource(0);
                         third_foto.setImageBitmap(third_picture);
                         third_review.setText("Number of Reviews:" + main_cursor.getInt(7));
-
-
                     }
                 }
             }
-
 
         } else if (all_life == true) {
             TextView name = findViewById(R.id.life_name_one);
@@ -1970,13 +1898,10 @@ public class MainActivity extends AppCompatActivity {
                         third_foto.setBackgroundResource(0);
                         third_foto.setImageBitmap(third_picture);
                         third_review.setText("Number of Reviews:" + main_cursor.getInt(7));
-
-
                     }
                 }
             }
         }
-
     }
 
     public void adv_life_back(View view) {
@@ -2069,8 +1994,6 @@ public class MainActivity extends AppCompatActivity {
                         third_foto.setBackgroundResource(0);
                         third_foto.setImageBitmap(third_picture);
                         third_review.setText("Number of Reviews:" + main_cursor.getInt(7));
-
-
                     }
                 }
             }
@@ -2140,14 +2063,11 @@ public class MainActivity extends AppCompatActivity {
                         third_foto.setBackgroundResource(0);
                         third_foto.setImageBitmap(third_picture);
                         third_review.setText("Number of Reviews:" + main_cursor.getInt(7));
-
-
                     }
                 }
             }
         }
-
-        }
+    }
 
     public void fun_price(View view) {
         String selected_price = view.getTag().toString();
@@ -2217,8 +2137,6 @@ public class MainActivity extends AppCompatActivity {
                         third_foto.setBackgroundResource(0);
                         third_foto.setImageBitmap(third_picture);
                         third_review.setText("Number of Reviews:" + main_cursor.getInt(7));
-
-
                     }
                 }
             }
@@ -2288,14 +2206,11 @@ public class MainActivity extends AppCompatActivity {
                         third_foto.setBackgroundResource(0);
                         third_foto.setImageBitmap(third_picture);
                         third_review.setText("Number of Reviews:" + main_cursor.getInt(7));
-
-
                     }
                 }
             }
         }
-
-        }
+    }
 
     public void adv_fun_back(View view) {
         setContentView(R.layout.top_fun);
@@ -2368,7 +2283,6 @@ public class MainActivity extends AppCompatActivity {
                 TextView meal = findViewById(R.id.meal_one);
                 TextView price = findViewById(R.id.price_one);
                 TextView cuisine = findViewById(R.id.cuisine_one);
-                //            name.setText(restaurant.getText());
                 values.put("Name", restaurant.getText().toString());
                 values.put("Address", address.getText().toString());
                 values.put("Rating", (double) num_stars);
@@ -2445,8 +2359,6 @@ public class MainActivity extends AppCompatActivity {
                 food_comment(food_name, food_address, num_stars);
                 current = null;
             }
-
-
         }
     }
 
@@ -2472,8 +2384,7 @@ public class MainActivity extends AppCompatActivity {
             Log.v("COUNT", "COUNT:" + check.getCount());
             if (check.getCount() == 0) {
                 ContentValues values = new ContentValues();
-                ContentValues single_values = new ContentValues();
-    //            name.setText(restaurant.getText());
+                ContentValues single_values = new ContentValues();            
                 values.put("Name", name.getText().toString());
                 values.put("Address", lifestyle_address.getText().toString());
                 values.put("Rating", num_stars);
@@ -2557,8 +2468,7 @@ public class MainActivity extends AppCompatActivity {
                 life_comment(life_name, life_address, num_stars);
                 current = null;
             }
-
-            }
+        }
     }
 
     public void entertainment_submit(View view) {
@@ -2585,7 +2495,6 @@ public class MainActivity extends AppCompatActivity {
 
                 ContentValues values = new ContentValues();
                 ContentValues single_values = new ContentValues();
-                //            name.setText(restaurant.getText());
                 values.put("Name", venue.getText().toString());
                 values.put("Address", venue_address.getText().toString());
                 values.put("Rating", (double) num_stars);
@@ -2669,8 +2578,6 @@ public class MainActivity extends AppCompatActivity {
                 current = null;
             }
         }
-
-
     }
 
     public void next_row(View view) {
@@ -2725,10 +2632,8 @@ public class MainActivity extends AppCompatActivity {
         Log.v("Button", "Image is Null");
         ImageView second_foto = findViewById(R.id.r_two_pic);
         second_foto.setImageBitmap(null);
-//        second_foto.setBackgroundResource(0);
         ImageView third_foto = findViewById(R.id.r_three_pic);
         third_foto.setImageBitmap(null);
-//        third_foto.setBackgroundResource(0);
         int num_one = Integer.parseInt(number_one.getText().toString());
         int num_two = Integer.parseInt(number_two.getText().toString());
         int num_three = Integer.parseInt(number_three.getText().toString());
@@ -2743,7 +2648,6 @@ public class MainActivity extends AppCompatActivity {
         if (main_cursor.moveToPosition(num_one - 1) == true) {
             Log.v("POSITION:", "First Next");
             Log.v("POSITION:", main_cursor.getPosition() + "");
-//            Log.v("Button", "New Image:" + main_cursor.getPosition());
             name.setText(main_cursor.getString(0));
             home.setText(main_cursor.getString(1));
             rating.setText("Rating:" + main_cursor.getDouble(2)/(double) main_cursor.getInt(7));
@@ -2783,16 +2687,9 @@ public class MainActivity extends AppCompatActivity {
                     third_foto.setBackgroundResource(0);
                     third_foto.setImageBitmap(third_picture);
                     third_reviews.setText("Number of Reviews:" + main_cursor.getInt(7));
-
-
                 }
             }
         }
-
-
-
-
-
     }
 
     public void previous_row(View view) {
@@ -2846,10 +2743,8 @@ public class MainActivity extends AppCompatActivity {
         foto.setImageBitmap(null);
         ImageView second_foto = findViewById(R.id.r_two_pic);
         second_foto.setImageBitmap(null);
-//        second_foto.setBackgroundResource(0);
         ImageView third_foto = findViewById(R.id.r_three_pic);
         third_foto.setImageBitmap(null);
-//        third_foto.setBackgroundResource(0);
         int test = Integer.parseInt(number_one.getText().toString());
         if (test == 1) {
             setContentView(R.layout.mealz);
@@ -2869,7 +2764,6 @@ public class MainActivity extends AppCompatActivity {
             if (main_cursor.moveToPosition(num_three - 1) == true) {
                 Log.v("POSITION:", "First Previous");
                 Log.v("POSITION:", main_cursor.getPosition() + "");
-//                Log.v("Button", "Move to Previous:" + main_cursor.getPosition());
                 third_name.setText(main_cursor.getString(0));
                 third_home.setText(main_cursor.getString(1));
                 third_rating.setText("Rating:" + main_cursor.getDouble(2)/(double) main_cursor.getInt(7));
@@ -2911,15 +2805,8 @@ public class MainActivity extends AppCompatActivity {
                         foto.setBackgroundResource(0);
                         foto.setImageBitmap(third_picture);
                         reviews.setText("Number of Reviews:" + main_cursor.getInt(7));
-
-
                     }
                 }
-
-
-
-
-
     }
 
     public void life_next_row(View view) {
@@ -2974,10 +2861,8 @@ public class MainActivity extends AppCompatActivity {
         Log.v("Button", "Image is Null");
         ImageView second_foto = findViewById(R.id.life_two_pic);
         second_foto.setImageBitmap(null);
-//        second_foto.setBackgroundResource(0);
         ImageView third_foto = findViewById(R.id.life_three_pic);
         third_foto.setImageBitmap(null);
-//        third_foto.setBackgroundResource(0);
         int num_one = Integer.parseInt(number_one.getText().toString());
         int num_two = Integer.parseInt(number_two.getText().toString());
         int num_three = Integer.parseInt(number_three.getText().toString());
@@ -2992,7 +2877,6 @@ public class MainActivity extends AppCompatActivity {
         if (main_cursor.moveToPosition(num_one - 1) == true) {
             Log.v("POSITION:", "First Next");
             Log.v("POSITION:", main_cursor.getPosition() + "");
-//            Log.v("Button", "New Image:" + main_cursor.getPosition());
             name.setText(main_cursor.getString(0));
             home.setText(main_cursor.getString(1));
             rating.setText("Rating:" + main_cursor.getInt(2)/(double) main_cursor.getInt(7));
@@ -3032,21 +2916,10 @@ public class MainActivity extends AppCompatActivity {
                     third_foto.setBackgroundResource(0);
                     third_foto.setImageBitmap(third_picture);
                     third_review.setText("Number of Reviews:" + main_cursor.getInt(7));
-
-
                 }
             }
         }
-
-
-
-
-
     }
-
-
-
-
 
     public void life_previous_row(View view) {
         Log.v("Button", "Previous");
@@ -3099,10 +2972,8 @@ public class MainActivity extends AppCompatActivity {
         foto.setImageBitmap(null);
         ImageView second_foto = findViewById(R.id.life_two_pic);
         second_foto.setImageBitmap(null);
-//        second_foto.setBackgroundResource(0);
         ImageView third_foto = findViewById(R.id.life_three_pic);
         third_foto.setImageBitmap(null);
-//        third_foto.setBackgroundResource(0);
         int test = Integer.parseInt(number_one.getText().toString());
         if (test == 1) {
             setContentView(R.layout.l_style);
@@ -3122,7 +2993,6 @@ public class MainActivity extends AppCompatActivity {
             if (main_cursor.moveToPosition(num_three - 1) == true) {
                 Log.v("POSITION:", "First Previous");
                 Log.v("POSITION:", main_cursor.getPosition() + "");
-//                Log.v("Button", "Move to Previous:" + main_cursor.getPosition());
                 third_name.setText(main_cursor.getString(0));
                 third_home.setText(main_cursor.getString(1));
                 third_rating.setText("Rating:" + main_cursor.getInt(2)/(double) main_cursor.getInt(7));
@@ -3164,15 +3034,8 @@ public class MainActivity extends AppCompatActivity {
                 foto.setBackgroundResource(0);
                 foto.setImageBitmap(third_picture);
                 review.setText("Number of Reviews:" + main_cursor.getInt(7));
-
-
             }
         }
-
-
-
-
-
     }
 
     public void fun_next_row(View view) {
@@ -3227,10 +3090,8 @@ public class MainActivity extends AppCompatActivity {
         Log.v("Button", "Image is Null");
         ImageView second_foto = findViewById(R.id.fun_two_pic);
         second_foto.setImageBitmap(null);
-//        second_foto.setBackgroundResource(0);
         ImageView third_foto = findViewById(R.id.fun_three_pic);
         third_foto.setImageBitmap(null);
-//        third_foto.setBackgroundResource(0);
         int num_one = Integer.parseInt(number_one.getText().toString());
         int num_two = Integer.parseInt(number_two.getText().toString());
         int num_three = Integer.parseInt(number_three.getText().toString());
@@ -3245,7 +3106,6 @@ public class MainActivity extends AppCompatActivity {
         if (main_cursor.moveToPosition(num_one - 1) == true) {
             Log.v("POSITION:", "First Next");
             Log.v("POSITION:", main_cursor.getPosition() + "");
-//            Log.v("Button", "New Image:" + main_cursor.getPosition());
             name.setText(main_cursor.getString(0));
             home.setText(main_cursor.getString(1));
             rating.setText("Rating:" + main_cursor.getDouble(2)/(double) main_cursor.getInt(7));
@@ -3285,16 +3145,9 @@ public class MainActivity extends AppCompatActivity {
                     third_foto.setBackgroundResource(0);
                     third_foto.setImageBitmap(third_picture);
                     third_review.setText("Number of Reviews:" + main_cursor.getInt(7));
-
-
                 }
             }
         }
-
-
-
-
-
     }
 
     public void fun_previous_row(View view) {
@@ -3348,10 +3201,8 @@ public class MainActivity extends AppCompatActivity {
         foto.setImageBitmap(null);
         ImageView second_foto = findViewById(R.id.fun_two_pic);
         second_foto.setImageBitmap(null);
-//        second_foto.setBackgroundResource(0);
         ImageView third_foto = findViewById(R.id.fun_three_pic);
         third_foto.setImageBitmap(null);
-//        third_foto.setBackgroundResource(0);
         int test = Integer.parseInt(number_one.getText().toString());
         if (test == 1) {
             setContentView(R.layout.fun);
@@ -3371,7 +3222,6 @@ public class MainActivity extends AppCompatActivity {
             if (main_cursor.moveToPosition(num_three - 1) == true) {
                 Log.v("POSITION:", "First Previous");
                 Log.v("POSITION:", main_cursor.getPosition() + "");
-//                Log.v("Button", "Move to Previous:" + main_cursor.getPosition());
                 third_name.setText(main_cursor.getString(0));
                 third_home.setText(main_cursor.getString(1));
                 third_rating.setText("Rating:" + main_cursor.getDouble(2)/(double) main_cursor.getInt(7));
@@ -3413,18 +3263,9 @@ public class MainActivity extends AppCompatActivity {
                 foto.setBackgroundResource(0);
                 foto.setImageBitmap(third_picture);
                 review.setText("Number of Reviews:" + main_cursor.getInt(7));
-
-
             }
         }
-
-
-
-
-
     }
-
-
 
     public void food_yellow_star(View view) {
         if (view.getTag().toString() != "yellow") {
@@ -3432,16 +3273,13 @@ public class MainActivity extends AppCompatActivity {
             view.setTag("yellow");
             num_stars = num_stars + 1;
             Log.v("FOCUS", num_stars + "");
-
+            
         } else if (view.getTag().toString() == "yellow") {
             view.setBackgroundResource(R.drawable.star);
             view.setTag("white");
             num_stars = num_stars - 1;
             Log.v("FOCUS", num_stars + "");
-
         }
-
-
     }
 
     public void lifestyle_yellow_star(View view) {
@@ -3455,9 +3293,7 @@ public class MainActivity extends AppCompatActivity {
             view.setTag("white");
             num_stars = num_stars - 1;
             Log.v("FOCUS", num_stars + "");
-
         }
-
     }
 
     public void lifestyle_service_star(View view) {
@@ -3471,9 +3307,7 @@ public class MainActivity extends AppCompatActivity {
             view.setTag("white");
             service_stars = service_stars - 1;
             Log.v("FOCUS", service_stars + "");
-
         }
-
     }
 
     public void fun_yellow_star(View view) {
@@ -3485,14 +3319,11 @@ public class MainActivity extends AppCompatActivity {
             view.setBackgroundResource(R.drawable.star);
             view.setTag("white");
             num_stars = num_stars - 1;
-
         }
-
     }
 
     public void food_green_dot(View view) {
         Log.v("FOCUS", view.isFocusable() + "");
-        // switch if statements back to tags
         if (view.isFocusable() == true) {
             view.setBackgroundResource(R.drawable.green_dot);
             view.setFocusable(false);
@@ -3514,10 +3345,7 @@ public class MainActivity extends AppCompatActivity {
             } else if (view.getTag().toString().contains("Cuisine")) {
                 food_type = null;
             }
-
-
         }
-
     }
 
     public void lifestyle_green_dot(View view) {
@@ -3538,11 +3366,7 @@ public class MainActivity extends AppCompatActivity {
             } else if (view.getTag().toString().contains("Price")) {
                 lifestyle_price = null;
             }
-
-
         }
-
-
     }
 
     public void fun__green_dot(View view) {
@@ -3567,19 +3391,13 @@ public class MainActivity extends AppCompatActivity {
             } else if (view.getTag().toString().contains("Age Group")) {
                 age_group = null;
             }
-
-
         }
-
-
     }
 
     public void food_photo(View view) {
         food_pic = true;
         Intent x = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
         startActivityForResult(x,1);
-
-
     }
 
     protected void onActivityResult(int rc, int resc, Intent data) {
@@ -3609,21 +3427,18 @@ public class MainActivity extends AppCompatActivity {
             current = bitmap;
             lifestyle_pic = false;
         }
-
     }
 
     public void life_photo(View view) {
         lifestyle_pic = true;
         Intent x = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
         startActivityForResult(x,1);
-
     }
 
     public void fun_photo(View view) {
         fun_pic = true;
         Intent x = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
         startActivityForResult(x,1);
-
     }
 
     public void food_adv_search(View view) {
@@ -3673,9 +3488,6 @@ public class MainActivity extends AppCompatActivity {
         dos_estrellas.setText(dos + "");
         TextView uno_estrellas = findViewById(R.id.one_star);
         uno_estrellas.setText(uno + "");
-
-
-
     }
 
     public void food_review_two_analysis(View view) {
@@ -3713,9 +3525,6 @@ public class MainActivity extends AppCompatActivity {
         dos_estrellas.setText(dos + "");
         TextView uno_estrellas = findViewById(R.id.one_star);
         uno_estrellas.setText(uno + "");
-
-
-
     }
 
     public void food_review_three_analysis(View view) {
@@ -3753,9 +3562,6 @@ public class MainActivity extends AppCompatActivity {
         dos_estrellas.setText(dos + "");
         TextView uno_estrellas = findViewById(R.id.one_star);
         uno_estrellas.setText(uno + "");
-
-
-
     }
 
     public void life_review_analysis(View view) {
@@ -3793,9 +3599,6 @@ public class MainActivity extends AppCompatActivity {
         dos_estrellas.setText(dos + "");
         TextView uno_estrellas = findViewById(R.id.one_star);
         uno_estrellas.setText(uno + "");
-
-
-
     }
 
     public void life_review_two_analysis(View view) {
@@ -3833,9 +3636,6 @@ public class MainActivity extends AppCompatActivity {
         dos_estrellas.setText(dos + "");
         TextView uno_estrellas = findViewById(R.id.one_star);
         uno_estrellas.setText(uno + "");
-
-
-
     }
 
     public void life_review_three_analysis(View view) {
@@ -3873,9 +3673,6 @@ public class MainActivity extends AppCompatActivity {
         dos_estrellas.setText(dos + "");
         TextView uno_estrellas = findViewById(R.id.one_star);
         uno_estrellas.setText(uno + "");
-
-
-
     }
 
     public void fun_review_analysis(View view) {
@@ -3913,9 +3710,6 @@ public class MainActivity extends AppCompatActivity {
         dos_estrellas.setText(dos + "");
         TextView uno_estrellas = findViewById(R.id.one_star);
         uno_estrellas.setText(uno + "");
-
-
-
     }
 
     public void fun_review_two_analysis(View view) {
@@ -3953,9 +3747,6 @@ public class MainActivity extends AppCompatActivity {
         dos_estrellas.setText(dos + "");
         TextView uno_estrellas = findViewById(R.id.one_star);
         uno_estrellas.setText(uno + "");
-
-
-
     }
 
     public void fun_review_three_analysis(View view) {
@@ -3993,9 +3784,6 @@ public class MainActivity extends AppCompatActivity {
         dos_estrellas.setText(dos + "");
         TextView uno_estrellas = findViewById(R.id.one_star);
         uno_estrellas.setText(uno + "");
-
-
-
     }
 
     public void food_comment(String name, String address, int rating) {
@@ -4007,7 +3795,6 @@ public class MainActivity extends AppCompatActivity {
         TextView prompt = findViewById(R.id.food_talk);
         EditText comment = findViewById(R.id.food_blurb);
         prompt.setText("Would you like to Comment Further About " + name + "?");
-
     }
 
     public void life_comment(String name, String address, int rating) {
@@ -4019,7 +3806,6 @@ public class MainActivity extends AppCompatActivity {
         TextView prompt = findViewById(R.id.fun_talk);
         EditText comment = findViewById(R.id.fun_blurb);
         prompt.setText("Would you like to Comment Further About " + name + "?");
-
     }
 
     public void fun_comment(String name, String address, int rating) {
@@ -4031,7 +3817,6 @@ public class MainActivity extends AppCompatActivity {
         TextView prompt = findViewById(R.id.life_talk);
         EditText comment = findViewById(R.id.life_blurb);
         prompt.setText("Would you like to Comment Further About " + name + "?");
-
     }
 
     public void food_comment_submit(View view) {
@@ -4123,10 +3908,6 @@ public class MainActivity extends AppCompatActivity {
             rating.setText("Customer Rating:" + main_cursor.getInt(1));
             opinion.setText(main_cursor.getString(2));
         }
-
-
-
-
     }
 
     public void life_comment_results(View view) {
@@ -4149,12 +3930,7 @@ public class MainActivity extends AppCompatActivity {
             rating.setText("Customer Rating:" + main_cursor.getInt(1));
             opinion.setText(main_cursor.getString(2));
         }
-
-
-
-
     }
-
 
     public void fun_comment_results(View view) {
         String comment = "select F.Name, F.Rating, F.Comment from Food_Comments F where F.Name = " + "'" + fun_comment_result_name + "'" + "" + "and F.Address = " + "'" + fun_comment_result_address + "'" + "order by F.rating desc;";
@@ -4176,10 +3952,6 @@ public class MainActivity extends AppCompatActivity {
             rating.setText("Customer Rating:" + main_cursor.getInt(1));
             opinion.setText(main_cursor.getString(2));
         }
-
-
-
-
     }
 
     public void f_c_r_next(View view) {
@@ -4191,7 +3963,6 @@ public class MainActivity extends AppCompatActivity {
             title.setText(main_cursor.getString(0) + " Comments");
             rating.setText("Customer Rating:" + main_cursor.getInt(1));
             opinion.setText(main_cursor.getString(2));
-
         }
     }
 
@@ -4204,7 +3975,6 @@ public class MainActivity extends AppCompatActivity {
             rating.setText("Customer Rating:" + main_cursor.getInt(1));
             opinion.setText(main_cursor.getString(2));
         }
-
     }
 
     public void f_c_r_back(View view) {
@@ -4216,6 +3986,4 @@ public class MainActivity extends AppCompatActivity {
         fun_comment_result_address = null;
         setContentView(R.layout.activity_main);
     }
-
-
 }
