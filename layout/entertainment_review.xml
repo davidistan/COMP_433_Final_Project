@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:textAlignment="center"
+            android:textColor="@color/BLACK"
+            android:textSize="20dp"
+            android:text="Entertainment Review"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:textAlignment="center"
+            android:textColor="@color/BLACK"
+            android:textSize="16dp"
+            android:text="Venue Name"/>
+        <EditText
+            android:id="@+id/venue"
+            android:inputType="text"
+            android:imeOptions="actionDone"
+            android:layout_width="200dp"
+            android:layout_height="50dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:textAlignment="center"
+            android:textColor="@color/BLACK"
+            android:textSize="16dp"
+            android:text="Address"/>
+        <EditText
+            android:id="@+id/venue_address"
+            android:inputType="text"
+            android:imeOptions="actionDone"
+            android:layout_width="200dp"
+            android:layout_height="50dp" />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp">
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:textAlignment="center"
+            android:textColor="@color/BLACK"
+            android:textSize="16dp"
+            android:text="Rating:"/>
+
+        <ImageView
+            android:onClick="fun_yellow_star"
+            android:tag="white"
+            android:background="@drawable/star"
+            android:layout_marginLeft="10dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+        <ImageView
+            android:onClick="fun_yellow_star"
+            android:tag="white"
+            android:background="@drawable/star"
+            android:layout_marginLeft="10dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+        <ImageView
+            android:onClick="fun_yellow_star"
+            android:tag="white"
+            android:background="@drawable/star"
+            android:layout_marginLeft="10dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+        <ImageView
+            android:onClick="fun_yellow_star"
+            android:tag="white"
+            android:background="@drawable/star"
+            android:layout_marginLeft="10dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+        <ImageView
+            android:onClick="fun_yellow_star"
+            android:tag="white"
+            android:background="@drawable/star"
+            android:layout_marginLeft="10dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp">
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:textAlignment="center"
+            android:textColor="@color/BLACK"
+            android:textSize="16dp"
+            android:text="Category:"/>
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:textSize="12dp"
+            android:textColor="@color/BLACK"
+            android:textAlignment="center"
+            android:text="Movies"/>
+        <ImageButton
+            android:onClick="fun__green_dot"
+            android:tag="Category:Movies"
+            android:layout_marginTop="17dp"
+            android:layout_marginLeft="2dp"
+            android:background="@drawable/circle"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:textSize="10dp"
+            android:textColor="@color/BLACK"
+            android:textAlignment="center"
+            android:text="Shopping"/>
+        <ImageButton
+            android:onClick="fun__green_dot"
+            android:tag="Category:Shopping"
+            android:layout_marginTop="17dp"
+            android:layout_marginLeft="2dp"
+            android:background="@drawable/circle"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:textSize="10dp"
+            android:textColor="@color/BLACK"
+            android:textAlignment="center"
+            android:text="Recreation"/>
+        <ImageButton
+            android:onClick="fun__green_dot"
+            android:tag="Category:Recreation"
+            android:layout_marginTop="17dp"
+            android:layout_marginLeft="2dp"
+            android:background="@drawable/circle"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp">
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:textAlignment="center"
+            android:textColor="@color/BLACK"
+            android:textSize="16dp"
+            android:text="Price:"/>
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:textSize="12dp"
+            android:textColor="@color/BLACK"
+            android:textAlignment="center"
+            android:text="$0-$10"/>
+        <ImageButton
+            android:onClick="fun__green_dot"
+            android:tag="Price:$0-$10"
+            android:layout_marginTop="17dp"
+            android:layout_marginLeft="2dp"
+            android:background="@drawable/circle"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:textSize="12dp"
+            android:textColor="@color/BLACK"
+            android:textAlignment="center"
+            android:text="$10-$20"/>
+        <ImageButton
+            android:onClick="fun__green_dot"
+            android:tag="Price:$10-$20"
+            android:layout_marginTop="17dp"
+            android:layout_marginLeft="2dp"
+            android:background="@drawable/circle"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:textSize="12dp"
+            android:textColor="@color/BLACK"
+            android:textAlignment="center"
+            android:text="$20+"/>
+        <ImageButton
+            android:onClick="fun__green_dot"
+            android:tag="Price:$20+"
+            android:layout_marginTop="17dp"
+            android:layout_marginLeft="2dp"
+            android:background="@drawable/circle"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp">
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:textAlignment="center"
+            android:textColor="@color/BLACK"
+            android:textSize="16dp"
+            android:text="Age Group:"/>
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:textSize="12dp"
+            android:textColor="@color/BLACK"
+            android:textAlignment="center"
+            android:text="Children"/>
+        <ImageButton
+            android:onClick="fun__green_dot"
+            android:tag="Age Group:Children"
+            android:layout_marginTop="17dp"
+            android:layout_marginLeft="2dp"
+            android:background="@drawable/circle"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:textSize="12dp"
+            android:textColor="@color/BLACK"
+            android:textAlignment="center"
+            android:text="Adults"/>
+        <ImageButton
+            android:onClick="fun__green_dot"
+            android:tag="Age Group:Adults"
+            android:layout_marginTop="17dp"
+            android:layout_marginLeft="2dp"
+            android:background="@drawable/circle"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:textSize="12dp"
+            android:textColor="@color/BLACK"
+            android:textAlignment="center"
+            android:text="Everyone"/>
+        <ImageButton
+            android:onClick="fun__green_dot"
+            android:tag="Age Group:Everyone"
+            android:layout_marginTop="17dp"
+            android:layout_marginLeft="2dp"
+            android:background="@drawable/circle"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+
+    </LinearLayout>
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="60dp"
+            android:layout_width="60dp"
+            android:layout_height="20dp"
+            android:textAlignment="center"
+            android:textColor="@color/BLACK"
+            android:textSize="16dp"
+            android:text="Photo:"/>
+        <ImageButton
+            android:id="@+id/venue_pic"
+            android:onClick="fun_photo"
+            android:background="@drawable/foto"
+            android:layout_width="280dp"
+            android:layout_height="140dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:onClick="entertainment_review_back"
+            android:background="@color/RED"
+            android:layout_marginLeft="100dp"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="BACK"/>
+        <Button
+            android:onClick="entertainment_submit"
+            android:background="@color/GREEN"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="SUBMIT"/>
+    </LinearLayout>
+
+
+</LinearLayout>

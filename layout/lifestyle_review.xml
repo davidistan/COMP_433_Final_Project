@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:textAlignment="center"
+            android:textColor="@color/BLACK"
+            android:textSize="20dp"
+            android:text="Lifestyle Review"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:textAlignment="center"
+            android:textColor="@color/BLACK"
+            android:textSize="16dp"
+            android:text="Name"/>
+        <EditText
+            android:id="@+id/lifestyle_name"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:inputType="text"
+            android:imeOptions="actionDone"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:textAlignment="center"
+            android:textColor="@color/BLACK"
+            android:textSize="16dp"
+            android:text="Address"/>
+        <EditText
+            android:id="@+id/lifestyle_address"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:inputType="text"
+            android:imeOptions="actionDone"/>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp">
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:textAlignment="center"
+            android:textColor="@color/BLACK"
+            android:textSize="16dp"
+            android:text="Rating:"/>
+
+        <ImageView
+            android:onClick="lifestyle_yellow_star"
+            android:tag="white"
+            android:background="@drawable/star"
+            android:layout_marginLeft="10dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+        <ImageView
+            android:onClick="lifestyle_yellow_star"
+            android:tag="white"
+            android:background="@drawable/star"
+            android:layout_marginLeft="10dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+        <ImageView
+            android:onClick="lifestyle_yellow_star"
+            android:tag="white"
+            android:background="@drawable/star"
+            android:layout_marginLeft="10dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+        <ImageView
+            android:onClick="lifestyle_yellow_star"
+            android:tag="white"
+            android:background="@drawable/star"
+            android:layout_marginLeft="10dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+        <ImageView
+            android:onClick="lifestyle_yellow_star"
+            android:tag="white"
+            android:background="@drawable/star"
+            android:layout_marginLeft="10dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp">
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:textAlignment="center"
+            android:textColor="@color/BLACK"
+            android:textSize="16dp"
+            android:text="Category:"/>
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:textSize="10dp"
+            android:textColor="@color/BLACK"
+            android:textAlignment="center"
+            android:text="Groceries"/>
+        <ImageButton
+            android:onClick="lifestyle_green_dot"
+            android:tag="Category:Groceries"
+            android:layout_marginTop="17dp"
+            android:layout_marginLeft="2dp"
+            android:background="@drawable/circle"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:textSize="12dp"
+            android:textColor="@color/BLACK"
+            android:textAlignment="center"
+            android:text="Gas"/>
+        <ImageButton
+            android:onClick="lifestyle_green_dot"
+            android:tag="Category:Gas"
+            android:layout_marginTop="17dp"
+            android:layout_marginLeft="2dp"
+            android:background="@drawable/circle"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:textSize="12dp"
+            android:textColor="@color/BLACK"
+            android:textAlignment="center"
+            android:text="Haircut"/>
+        <ImageButton
+            android:onClick="lifestyle_green_dot"
+            android:tag="Category:Haircut"
+            android:layout_marginTop="17dp"
+            android:layout_marginLeft="2dp"
+            android:background="@drawable/circle"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp">
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:textAlignment="center"
+            android:textColor="@color/BLACK"
+            android:textSize="16dp"
+            android:text="Price:"/>
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:textSize="12dp"
+            android:textColor="@color/BLACK"
+            android:textAlignment="center"
+            android:text="$"/>
+        <ImageButton
+            android:onClick="lifestyle_green_dot"
+            android:tag="Price:$"
+            android:layout_marginTop="17dp"
+            android:layout_marginLeft="2dp"
+            android:background="@drawable/circle"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:textSize="12dp"
+            android:textColor="@color/BLACK"
+            android:textAlignment="center"
+            android:text="$$"/>
+        <ImageButton
+            android:onClick="lifestyle_green_dot"
+            android:tag="Price:$$"
+            android:layout_marginTop="17dp"
+            android:layout_marginLeft="2dp"
+            android:background="@drawable/circle"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:textSize="12dp"
+            android:textColor="@color/BLACK"
+            android:textAlignment="center"
+            android:text="$$$"/>
+        <ImageButton
+            android:onClick="lifestyle_green_dot"
+            android:tag="Price:$$$"
+            android:layout_marginTop="17dp"
+            android:layout_marginLeft="2dp"
+            android:background="@drawable/circle"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp">
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:textAlignment="center"
+            android:textColor="@color/BLACK"
+            android:textSize="16dp"
+            android:text="Service:"/>
+
+        <ImageView
+            android:onClick="lifestyle_service_star"
+            android:tag="white"
+            android:background="@drawable/star"
+            android:layout_marginLeft="10dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+        <ImageView
+            android:onClick="lifestyle_service_star"
+            android:tag="white"
+            android:background="@drawable/star"
+            android:layout_marginLeft="10dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+        <ImageView
+            android:onClick="lifestyle_service_star"
+            android:tag="white"
+            android:background="@drawable/star"
+            android:layout_marginLeft="10dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+        <ImageView
+            android:onClick="lifestyle_service_star"
+            android:tag="white"
+            android:background="@drawable/star"
+            android:layout_marginLeft="10dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+        <ImageView
+            android:onClick="lifestyle_service_star"
+            android:tag="white"
+            android:background="@drawable/star"
+            android:layout_marginLeft="10dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="60dp"
+            android:layout_width="60dp"
+            android:layout_height="20dp"
+            android:textAlignment="center"
+            android:textColor="@color/BLACK"
+            android:textSize="16dp"
+            android:text="Photo:"/>
+        <ImageButton
+            android:id="@+id/lifestyle_pic"
+            android:onClick="life_photo"
+            android:background="@drawable/foto"
+            android:layout_width="280dp"
+            android:layout_height="140dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:onClick="lifestyle_review_back"
+            android:background="@color/RED"
+            android:layout_marginLeft="100dp"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="BACK"/>
+        <Button
+            android:onClick="lifestyle_submit"
+            android:background="@color/GREEN"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="SUBMIT"/>
+    </LinearLayout>
+
+
+</LinearLayout>

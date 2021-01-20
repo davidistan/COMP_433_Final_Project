@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/BLACK">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="150dp">
+        <Button
+            android:onClick="fun_price_select"
+            android:background="@color/UNC"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:textSize="40dp"
+            android:text="PRICE"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center">
+        <Button
+            android:onClick="fun_age_select"
+            android:background="@color/UNC"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:textSize="30dp"
+            android:text="AGE GROUP"/>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp">
+        <Button
+            android:onClick="adv_fun_back"
+            android:background="@color/RED"
+            android:layout_width="150dp"
+            android:layout_height="75dp"
+            android:textSize="22dp"
+            android:text="Back"/>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

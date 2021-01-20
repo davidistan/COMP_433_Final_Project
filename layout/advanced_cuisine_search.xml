@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/BLACK">
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:textAlignment="center"
+        android:textColor="@color/RED"
+        android:textSize="30dp"
+        android:text="Cuisine"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp">
+        <Button
+            android:onClick="find_cuisine"
+            android:tag="Cuisine:American"
+            android:background="@color/UNC"
+            android:layout_width="150dp"
+            android:layout_height="75dp"
+            android:textSize="24dp"
+            android:text="American"/>
+
+        <Button
+            android:layout_marginLeft="10dp"
+            android:tag="Cuisine:Latin American"
+            android:onClick="find_cuisine"
+            android:background="@color/UNC"
+            android:layout_width="150dp"
+            android:layout_height="75dp"
+            android:textSize="16dp"
+            android:text="Latin American"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp">
+        <Button
+            android:tag="Cuisine:European"
+            android:onClick="find_cuisine"
+            android:background="@color/UNC"
+            android:layout_width="150dp"
+            android:layout_height="75dp"
+            android:textSize="24dp"
+            android:text="European"/>
+
+        <Button
+            android:layout_marginLeft="10dp"
+            android:tag="Cuisine:Asian"
+            android:onClick="find_cuisine"
+            android:background="@color/UNC"
+            android:layout_width="150dp"
+            android:layout_height="75dp"
+            android:textSize="16dp"
+            android:text="Asian"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp">
+        <Button
+            android:onClick="find_cuisine"
+            android:tag="Cuisine:African"
+            android:background="@color/UNC"
+            android:layout_width="150dp"
+            android:layout_height="75dp"
+            android:textSize="24dp"
+            android:text="African"/>
+
+        <Button
+            android:layout_marginLeft="10dp"
+            android:tag="Cuisine:Mediterranean"
+            android:onClick="find_cuisine"
+            android:background="@color/UNC"
+            android:layout_width="150dp"
+            android:layout_height="75dp"
+            android:textSize="16dp"
+            android:text="Mediterranean"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp">
+        <Button
+            android:onClick="find_cuisine"
+            android:tag="Cuisine:Fusion"
+            android:background="@color/UNC"
+            android:layout_width="150dp"
+            android:layout_height="75dp"
+            android:textSize="24dp"
+            android:text="Fusion"/>
+
+        <Button
+            android:layout_marginLeft="10dp"
+            android:tag="Cuisine:Vegetarian"
+            android:onClick="find_cuisine"
+            android:background="@color/UNC"
+            android:layout_width="150dp"
+            android:layout_height="75dp"
+            android:textSize="16dp"
+            android:text="Vegetarian"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp">
+        <Button
+            android:onClick="back_to_home"
+            android:background="@color/RED"
+            android:layout_width="150dp"
+            android:layout_height="75dp"
+            android:textSize="24dp"
+            android:text="Back"/>
+
+        <Button
+            android:layout_marginLeft="10dp"
+            android:onClick="find_cuisine"
+            android:tag="Cuisine:Vegan"
+            android:background="@color/UNC"
+            android:layout_width="150dp"
+            android:layout_height="75dp"
+            android:textSize="16dp"
+            android:text="Vegan"/>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

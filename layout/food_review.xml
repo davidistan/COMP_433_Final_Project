@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="50dp" 
+            android:textAlignment="center"
+            android:textColor="@color/BLACK"
+            android:textSize="30dp"
+            android:text="Food Review"/>
+        
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:textAlignment="center"
+            android:textColor="@color/BLACK"
+            android:textSize="16dp"
+            android:text="Restaurant Name"/>
+        <EditText
+            android:id="@+id/restaurant"
+            android:inputType="text"
+            android:imeOptions="actionDone"
+            android:cursorVisible="true"
+            android:focusableInTouchMode="true"
+            android:layout_width="200dp"
+            android:layout_height="50dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:textAlignment="center"
+            android:textColor="@color/BLACK"
+            android:textSize="16dp"
+            android:text="Address"/>
+        <EditText
+            android:id="@+id/address"
+            android:inputType="text"
+            android:imeOptions="actionDone"
+            android:cursorVisible="true"
+            android:focusableInTouchMode="true"
+            android:layout_width="200dp"
+            android:layout_height="50dp" />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp">
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:textAlignment="center"
+            android:textColor="@color/BLACK"
+            android:textSize="16dp"
+            android:text="Rating:"/>
+
+        <ImageView
+            android:onClick="food_yellow_star"
+            android:tag="white"
+            android:background="@drawable/star"
+            android:layout_marginLeft="10dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+        <ImageView
+            android:onClick="food_yellow_star"
+            android:tag="white"
+            android:background="@drawable/star"
+            android:layout_marginLeft="10dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+        <ImageView
+            android:onClick="food_yellow_star"
+            android:tag="white"
+            android:background="@drawable/star"
+            android:layout_marginLeft="10dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+        <ImageView
+            android:onClick="food_yellow_star"
+            android:tag="white"
+            android:background="@drawable/star"
+            android:layout_marginLeft="10dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+        <ImageView
+            android:onClick="food_yellow_star"
+            android:tag="white"
+            android:background="@drawable/star"
+            android:layout_marginLeft="10dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp">
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:textAlignment="center"
+            android:textColor="@color/BLACK"
+            android:textSize="16dp"
+            android:text="Meal:"/>
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:textSize="10dp"
+            android:textColor="@color/BLACK"
+            android:textAlignment="center"
+            android:text="Breakfast"/>
+        <ImageButton
+            android:onClick="food_green_dot"
+            android:focusable="true"
+            android:tag="Meal:Breakfast"
+            android:layout_marginTop="17dp"
+            android:layout_marginLeft="2dp"
+            android:background="@drawable/circle"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:textSize="12dp"
+            android:textColor="@color/BLACK"
+            android:textAlignment="center"
+            android:text="Lunch"/>
+        <ImageButton
+            android:onClick="food_green_dot"
+            android:focusable="true"
+            android:tag="Meal:Lunch"
+            android:layout_marginTop="17dp"
+            android:layout_marginLeft="2dp"
+            android:background="@drawable/circle"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:textSize="12dp"
+            android:textColor="@color/BLACK"
+            android:textAlignment="center"
+            android:text="Dinner"/>
+        <ImageButton
+            android:focusable="true"
+            android:onClick="food_green_dot"
+            android:tag="Meal:Dinner"
+            android:layout_marginTop="17dp"
+            android:layout_marginLeft="2dp"
+            android:background="@drawable/circle"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp">
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:textAlignment="center"
+            android:textColor="@color/BLACK"
+            android:textSize="16dp"
+            android:text="Price:"/>
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:textSize="12dp"
+            android:textColor="@color/BLACK"
+            android:textAlignment="center"
+            android:text="$0-$10"/>
+        <ImageButton
+            android:onClick="food_green_dot"
+            android:tag="Price:$0-$10"
+            android:layout_marginTop="17dp"
+            android:layout_marginLeft="2dp"
+            android:background="@drawable/circle"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:textSize="12dp"
+            android:textColor="@color/BLACK"
+            android:textAlignment="center"
+            android:text="$10-$20"/>
+        <ImageButton
+            android:onClick="food_green_dot"
+            android:tag="Price:$10-$20"
+            android:layout_marginTop="17dp"
+            android:layout_marginLeft="2dp"
+            android:background="@drawable/circle"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:textSize="12dp"
+            android:textColor="@color/BLACK"
+            android:textAlignment="center"
+            android:text="$20+"/>
+        <ImageButton
+            android:onClick="food_green_dot"
+            android:tag="Price:$20+"
+            android:layout_marginTop="17dp"
+            android:layout_marginLeft="2dp"
+            android:background="@drawable/circle"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="100dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12dp"
+                android:textColor="@color/BLACK"
+                android:text="American"/>
+            <ImageButton
+                android:onClick="food_green_dot"
+                android:tag="Cuisine:American"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/circle"
+                android:layout_width="20dp"
+                android:layout_height="20dp" />
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12dp"
+                android:textColor="@color/BLACK"
+                android:text="Latin American"/>
+            <ImageButton
+                android:onClick="food_green_dot"
+                android:tag="Cuisine:Latin American"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/circle"
+                android:layout_width="20dp"
+                android:layout_height="20dp" />
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12dp"
+                android:textColor="@color/BLACK"
+                android:text="European"/>
+            <ImageButton
+                android:onClick="food_green_dot"
+                android:tag="Cuisine:European"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/circle"
+                android:layout_width="20dp"
+                android:layout_height="20dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp">
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="60dp"
+            android:layout_height="20dp"
+            android:textAlignment="center"
+            android:textColor="@color/BLACK"
+            android:textSize="16dp"
+            android:text="Cuisine:"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12dp"
+            android:textColor="@color/BLACK"
+            android:text="Asian"/>
+        <ImageButton
+            android:onClick="food_green_dot"
+            android:tag="Cuisine:Asian"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/circle"
+            android:layout_width="20dp"
+            android:layout_height="20dp" />
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12dp"
+            android:textColor="@color/BLACK"
+            android:text="African"/>
+        <ImageButton
+            android:onClick="food_green_dot"
+            android:tag="Cuisine:African"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/circle"
+            android:layout_width="20dp"
+            android:layout_height="20dp" />
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12dp"
+            android:textColor="@color/BLACK"
+            android:text="Mediterranean"/>
+        <ImageButton
+            android:onClick="food_green_dot"
+            android:tag="Cuisine:Mediterranean"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/circle"
+            android:layout_width="20dp"
+            android:layout_height="20dp" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="100dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12dp"
+            android:textColor="@color/BLACK"
+            android:text="Fusion"/>
+        <ImageButton
+            android:onClick="food_green_dot"
+            android:tag="Cuisine:Fusion"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/circle"
+            android:layout_width="20dp"
+            android:layout_height="20dp" />
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12dp"
+            android:textColor="@color/BLACK"
+            android:text="Vegetarian"/>
+        <ImageButton
+            android:onClick="food_green_dot"
+            android:tag="Cuisine:Vegetarian"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/circle"
+            android:layout_width="20dp"
+            android:layout_height="20dp" />
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12dp"
+            android:textColor="@color/BLACK"
+            android:text="Vegan"/>
+        <ImageButton
+            android:onClick="food_green_dot"
+            android:tag="Cuisine:Vegan"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/circle"
+            android:layout_width="20dp"
+            android:layout_height="20dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="60dp"
+            android:layout_width="60dp"
+            android:layout_height="20dp"
+            android:textAlignment="center"
+            android:textColor="@color/BLACK"
+            android:textSize="16dp"
+            android:text="Photo:"/>
+        <ImageButton
+            android:onClick="food_photo"
+            android:id="@+id/food_pic"
+            android:background="@drawable/foto"
+            android:layout_width="240dp"
+            android:layout_height="120dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:onClick="food_review_back"
+            android:background="@color/RED"
+            android:layout_marginLeft="100dp"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="BACK"/>
+        <Button
+            android:onClick="food_submit"
+            android:background="@color/GREEN"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="SUBMIT"/>
+    </LinearLayout>
+    
+
+</LinearLayout>
